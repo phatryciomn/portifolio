@@ -25,6 +25,37 @@ html, body {
         height: 100vh;
         background-color: config.$color-green;
         color: config.$color-white;
+    
+        .container {
+            h1 {
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            p {
+                font-size: 1rem;
+                text-align: center;
+            }
+
+            .m-auto-btn {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin-top: 8px;
+                
+                .btn-portifolio {
+                    @include config.font-paragraf;
+                    width: 160px;
+                    height: 35px;
+                    border-radius: 6px;
+                    border: 1px solid config.$color-white;
+                    background-color: transparent;
+                    color: config.$color-white;
+                }
+            }
+        }
     }
 }
 
