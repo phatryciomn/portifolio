@@ -72,7 +72,8 @@ html, body {
 }
 .webview .sobre .container .row {
   width: 100%;
-  margin-top: 30px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 .webview .sobre .container .row .c-photo {
   width: 100%;
@@ -117,7 +118,7 @@ html, body {
   width: 100%;
   min-height: 25px;
 }
-.webview .sobre .container .row .c-descricao .habilidades .h-item .h-c-porcentagem .h-porcentagem {
+.webview .sobre .container .row .c-descricao .habilidades .h-item .h-c-porcentagem .h-porcentagem-geral {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -126,10 +127,10 @@ html, body {
   height: 6px;
   border-radius: 6px;
 }
-.webview .sobre .container .row .c-descricao .habilidades .h-item .h-c-porcentagem .h-porcentagem .h-porcentagem-conhecimento {
+.webview .sobre .container .row .c-descricao .habilidades .h-item .h-c-porcentagem .h-porcentagem-geral .h-porcentagem-conhecimento {
   height: 100%;
 }
-.webview .sobre .container .row .c-descricao .habilidades .h-item .h-c-porcentagem .h-porcentagem span {
+.webview .sobre .container .row .c-descricao .habilidades .h-item .h-c-porcentagem .h-porcentagem-geral span {
   font-family: "Ruda", sans-serif;
   font-weight: 400;
   margin-left: 10px;
@@ -156,34 +157,34 @@ html, body {
   font-weight: bold;
   color: #FFFFFF;
 }
-.webview .servicos .container .s-carousel {
+.webview .servicos .container .s-carrousel {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   margin-bottom: 30px;
 }
-.webview .servicos .container .s-carousel .s-carousel-container {
+.webview .servicos .container .s-carrousel .s-carrousel-container {
   display: flex;
   flex-direction: row;
   min-width: 100%;
 }
-.webview .servicos .container .s-carousel .s-carousel-container .s-carousel-item {
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item {
   min-height: 260px;
   background-color: #FFFFFF;
   color: #29AE81;
 }
-.webview .servicos .container .s-carousel .s-carousel-container .s-carousel-item .title {
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .title {
   width: 100%;
   padding: 10px;
 }
-.webview .servicos .container .s-carousel .s-carousel-container .s-carousel-item .title p {
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .title p {
   font-family: "Ruda", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   font-weight: bold;
 }
-.webview .servicos .container .s-carousel .s-carousel-container .s-carousel-item .body {
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -191,7 +192,7 @@ html, body {
   width: 100%;
   min-height: 180px;
 }
-.webview .servicos .container .s-carousel .s-carousel-container .s-carousel-item .body .icon {
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body .icon {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -199,18 +200,18 @@ html, body {
   width: 100%;
   margin-bottom: 10px;
 }
-.webview .servicos .container .s-carousel .s-carousel-container .s-carousel-item .body .icon span i {
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body .icon span i {
   font-size: 38px;
 }
-.webview .servicos .container .s-carousel .s-carousel-container .s-carousel-item .body .texto {
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body .texto {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-width: 10px;
+  min-height: 10px;
 }
-.webview .servicos .container .s-carousel .s-carousel-container .s-carousel-item .body .texto p {
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body .texto p {
   font-family: "Ruda", sans-serif;
   font-weight: 400;
   text-align: center;

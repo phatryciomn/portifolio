@@ -82,7 +82,8 @@ html, body {
 
             .row {
                 width: 100%;
-                margin-top: 30px;
+                margin: auto;
+                margin-bottom: 30px;
 
                 .c-photo {
                     width: 100%;
@@ -130,7 +131,7 @@ html, body {
                                 width: 100%;
                                 min-height: 25px;
 
-                                .h-porcentagem {
+                                .h-porcentagem-geral {
                                     position: relative;
                                     display: flex;
                                     flex-direction: row;
@@ -181,19 +182,19 @@ html, body {
                 }
             }
 
-            .s-carousel {
+            .s-carrousel {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 width: 100%;
                 margin-bottom: 30px;
 
-                .s-carousel-container {
+                .s-carrousel-container {
                     display: flex;
                     flex-direction: row;
                     min-width: 100%;
 
-                    .s-carousel-item {
+                    .s-carrousel-item {
                         min-height: 260px;
                         background-color: config.$color-white;
                         color: config.$color-green;
@@ -232,11 +233,11 @@ html, body {
 
                             .texto {
                                 display: flex;
-                                flex-direction: column;
+                                flex-direction: row;
                                 justify-content: center;
                                 align-items: center;
                                 width: 100%;
-                                min-width: 10px;
+                                min-height: 10px;
                                 
                                 p {
                                     @include config.font-paragraf;
