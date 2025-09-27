@@ -463,3 +463,68 @@ html, body {
         }
     }
 }
+
+@media only screen and (min-width: config.$media-mobile-l) {
+
+    .intro {
+
+        .container {
+
+            h1{
+                font-size: 2.4rem;
+            }
+
+            p{
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+
+    .sobre {
+
+        .container {
+
+            .row {
+                display: grid;
+                grid-template-columns: repeat(2, 50%);
+
+                .c-photo {
+                    padding: 10px;
+                }
+
+                .c-descricao {
+                    padding: 10px;
+
+                    p {
+                        font-size: 1.2rem;
+                    }
+
+                    .habilidades {
+
+                        .h-item {
+                            
+                            .h-title {
+
+                                h3 {
+                                    font-size: 1.2rem;
+                                }
+                            }
+
+                            .h-c-porcentagem {
+
+                                .h-porcentagem-geral {
+
+                                    span {
+                                        font-size: 1.2rem;
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

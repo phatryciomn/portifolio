@@ -395,4 +395,32 @@ html, body {
   color: #FFFFFF;
 }
 
+@media only screen and (min-width: 425px) {
+  .intro .container h1 {
+    font-size: 2.4rem;
+  }
+  .intro .container p {
+    font-size: 1.2rem;
+  }
+  .sobre .container .row {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+  .sobre .container .row .c-photo {
+    padding: 10px;
+  }
+  .sobre .container .row .c-descricao {
+    padding: 10px;
+  }
+  .sobre .container .row .c-descricao p {
+    font-size: 1.2rem;
+  }
+  .sobre .container .row .c-descricao .habilidades .h-item .h-title h3 {
+    font-size: 1.2rem;
+  }
+  .sobre .container .row .c-descricao .habilidades .h-item .h-c-porcentagem .h-porcentagem-geral span {
+    font-size: 1.2rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
